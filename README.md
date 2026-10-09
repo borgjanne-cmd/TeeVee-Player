@@ -147,8 +147,16 @@ TeeVee Player automatically detects your Windows system language and allows chan
 
 ---
 
-## 💬 Feedback & Support
+## 💬 Contact & Support
 
-Found an issue or have a feature suggestion? Feel free to open a ticket in the [GitHub Issues](https://github.com/borgjanne-cmd/TeeVee-Player/issues) section.
+Have questions, feedback, or feature suggestions?
+- 🌐 **Official Website:** [teevee-player.netlify.app](https://teevee-player.netlify.app)
+- ✉️ **Email Support:** [teevee.jannejb@gmail.com](mailto:teevee.jannejb@gmail.com)
+
+<br/>
+
+<div align="center">
 
 *Built with [JetBrains Compose Multiplatform](https://www.jetbrains.com/lp/compose-multiplatform/) & [LibVLC / VideoLAN](https://www.videolan.org/).*
+
+</div>
