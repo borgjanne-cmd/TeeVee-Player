@@ -11,7 +11,6 @@
 [![Kotlin](https://img.shields.io/badge/Kotlin-2.0-7f52ff?style=for-the-badge&logo=kotlin)](https://kotlinlang.org/)
 [![Compose](https://img.shields.io/badge/Compose-Multiplatform-4285F4?style=for-the-badge&logo=jetpackcompose)](https://www.jetbrains.com/lp/compose-multiplatform/)
 [![Security](https://img.shields.io/badge/Security-VirusTotal%20Clean-10b981?style=for-the-badge&logo=virustotal)](https://www.virustotal.com/)
-[![License](https://img.shields.io/badge/License-GPL--3.0-orange?style=for-the-badge)](LICENSE)
 
 <br/>
 
@@ -137,26 +136,19 @@ TeeVee Player automatically detects your Windows system language and allows chan
 
 ---
 
-## 🛠️ Building from Source
+## 💻 System Requirements
 
-TeeVee Player requires **JDK 17+** and Gradle:
-
-```bash
-# Clone the repository
-git clone https://github.com/borgjanne-cmd/TeeVee-Player.git
-cd TeeVee-Player
-
-# Run in development mode
-./gradlew run
-
-# Execute unit tests
-./gradlew test
-```
+- **Operating System:** Windows 10 (64-bit) or Windows 11 (64-bit)
+- **Processor:** Any modern dual-core x64 CPU (Intel / AMD)
+- **Memory:** 4 GB RAM (8 GB recommended for heavy 4K streams)
+- **Storage:** ~300 MB free disk space
+- **Display:** 1280×720 minimum resolution (Full HD or 4K recommended)
+- **Network:** Broadband Internet connection for smooth live and VOD streaming
 
 ---
 
-## 📄 License
+## 💬 Feedback & Support
 
-This project is licensed under the **GNU General Public License v3.0 (GPL-3.0)**. See the [LICENSE](LICENSE) file for details.
+Found an issue or have a feature suggestion? Feel free to open a ticket in the [GitHub Issues](https://github.com/borgjanne-cmd/TeeVee-Player/issues) section.
 
-*Powered by [JetBrains Compose Multiplatform](https://www.jetbrains.com/lp/compose-multiplatform/) and [LibVLC / VideoLAN](https://www.videolan.org/).*
+*Built with [JetBrains Compose Multiplatform](https://www.jetbrains.com/lp/compose-multiplatform/) & [LibVLC / VideoLAN](https://www.videolan.org/).*
