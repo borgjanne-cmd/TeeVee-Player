@@ -1,5 +1,5 @@
 # TeeVee-Player
 TeeVee Player – Moderni ja helppokäyttöinen IPTV-soitin Windowsille.
 
-* **Uusin julkaisu:** v1.2.2 (2026-09-24)
+* **Uusin julkaisu:** v1.2.3 (2026-09-24)
 * **Kotisivut:** [teevee-player.netlify.app](https://teevee-player.netlify.app)
