@@ -25,19 +25,28 @@
 
 ## 📸 Screenshots
 
-### 📺 Live TV & Main Player View
+### 📺 Live TV & Player View
 Featuring dark glassmorphism styling, instant channel surfing, and real-time playback controls:
 
 ![TeeVee Player Live Stream](docs/screenshots/player_screenshot.png)
 
 <br/>
 
-### 🎬 Movies (VOD) & 🍿 TV Series Guide
-Blazing-fast category browsing and episode selectors with automatic watch-history tracking:
+### 📅 Multi-Channel TV Guide (EPG Timeline) & 🔒 Customization & Parental PIN
+Browse your channel group's schedule side-by-side or customize your channel lineups with drag-and-drop and PIN protection:
 
-| 🎬 Movies (VOD) Search | 🍿 TV Series & Episodes |
+| 📅 Multi-Channel TV Guide (EPG) | 🔒 Channel Customization & Parental PIN |
 |:---:|:---:|
-| <img src="docs/screenshots/channels_screenshot.png" width="450" alt="Movies and VOD Search" /> | <img src="docs/screenshots/series_screenshot.png" width="450" alt="Series and Episodes Browser" /> |
+| <img src="docs/screenshots/epg_screenshot.png" width="450" alt="Multi-Channel TV Guide EPG Timeline" /> | <img src="docs/screenshots/customization_screenshot.png" width="450" alt="Channel and Group Customization & Parental Lock" /> |
+
+<br/>
+
+### 🎬 Movies (VOD & Trailers), 🍿 TV Series & ⚡ Instant Search
+Rich metadata, official movie trailers, active subtitles, and lightning-fast search across tens of thousands of channels:
+
+| 🎬 Movie Details & Trailer | 🍿 TV Series & Subtitles | ⚡ Real-Time Instant Search |
+|:---:|:---:|:---:|
+| <img src="docs/screenshots/movies_screenshot.png" width="300" alt="Movie Details and Trailer" /> | <img src="docs/screenshots/series_screenshot.png" width="300" alt="TV Series and Subtitles" /> | <img src="docs/screenshots/search_screenshot.png" width="300" alt="Instant Search" /> |
 
 ---
 
@@ -45,12 +54,30 @@ Blazing-fast category browsing and episode selectors with automatic watch-histor
 
 - **⚡ Native Desktop Performance:**
   - Built with **Kotlin Multiplatform + Jetpack Compose for Desktop**.
-  - Powered by **LibVLC 3.0.24 (FFmpeg 8)** with native GPU hardware acceleration.
+  - Powered by **LibVLC 3.0.24 (FFmpeg 8)** with native **Direct3D11 GPU hardware acceleration**.
   - Starts up instantly with high-performance SQLite caching (WAL mode) capable of handling playlists with over 50,000 channels.
 
 - **📺 Complete IPTV & Media Protocol Support:**
   - Seamlessly streams **HLS (.m3u8), MPEG-TS, RTMP, RTSP**, and direct video files (**MP4, MKV, AVI**).
   - Handles variable bitrates, live DVR buffers, and network reconnects automatically.
+  - Dedicated **channel zapping buttons (|◄ / ►|)** for instant channel-hopping.
+
+- **📅 Multi-Channel Electronic Program Guide (EPG):**
+  - Integrated XMLTV guide showing currently playing and upcoming shows with live progress bars.
+  - **Multi-Channel Timeline Guide:** Dedicated desktop window view for any Live TV group with side-by-side channel columns, 7-day schedule browser, automatic program cover art (Wikipedia, TVMaze, Cinemeta), detailed synopses, and a one-click "Now" button.
+  - High-speed fuzzy search across all channels, categories, and program titles.
+
+- **🔒 Channel & Group Customization & Parental Control:**
+  - Full drag-and-drop reordering with smooth list auto-scrolling.
+  - Fast batch management: select multiple channels (with Shift-multiselect) to hide, move, or reset.
+  - Rename channels and groups with custom display names.
+  - 4-digit **Parental PIN lock** to restrict adult categories or sensitive channels.
+
+- **🍿 Movies, Series & Official Trailers:**
+  - Comprehensive details dialog with synopsis, year, category, and cover artwork.
+  - **Official trailer playback:** Launch YouTube/web trailers with a single click.
+  - Smart playback memory automatically remembers the exact second where you paused.
+  - Multilingual subtitle support (DVB, Teletext, SRT, WebVTT) with quick timing sync adjustment.
 
 - **⏪ 7-Day Catchup TV (Arkisto / Timeshift):**
   - Watch previously aired programs on supported channels with full time-shift and seek controls (supports Xtream Codes & Flussonic protocols).
@@ -59,15 +86,6 @@ Blazing-fast category browsing and episode selectors with automatic watch-histor
   - Add unlimited playlists via **M3U / M3U8 URLs, local playlist files, or Xtream Codes API**.
   - Instant one-click switching between playlists directly from the top bar.
   - Automatic background synchronization keeping channel lists and EPG up to date.
-
-- **📅 Electronic Program Guide (EPG):**
-  - Integrated XMLTV guide showing currently playing and upcoming shows with progress bars.
-  - **Multi-Channel Grid EPG:** Dedicated desktop window view for any Live TV group with side-by-side channel columns, 7-day schedule browser, program preview images, detailed synopses, and seamless background channel switching.
-  - High-speed fuzzy search across all channels, categories, and program titles.
-
-- **💬 Multi-Track Audio & OpenSubtitles Integration:**
-  - Switch between multi-language audio streams and embedded subtitle tracks.
-  - Integrated **OpenSubtitles.com** search & download with real-time sync adjustment (`±0.25s`, `±0.5s`).
 
 - **🖥️ Desktop-Centric Polish:**
   - One-click Fullscreen (`F11` / `F`) and Compact mini-player mode (`F10`).
