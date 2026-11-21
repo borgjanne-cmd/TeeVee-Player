@@ -52,10 +52,15 @@ Rich metadata, official movie trailers, active subtitles, and lightning-fast sea
 
 ## ✨ Key Features
 
-- **⚡ Native Desktop Performance:**
+- **⚡ Native Desktop Performance & Instant Startup:**
   - Built with **Kotlin Multiplatform + Jetpack Compose for Desktop**.
   - Powered by **LibVLC 3.0.24 (FFmpeg 8)** with native **Direct3D11 GPU hardware acceleration**.
-  - Starts up instantly with high-performance SQLite caching (WAL mode) capable of handling playlists with over 50,000 channels.
+  - **Lightning-fast startup:** Parallelized background initialization (`Dispatchers.IO`), memory-mapped SQLite (`PRAGMA mmap_size`), and zero artificial splash delays—launches ready for playback in an instant even with massive 100,000+ channel playlists.
+
+- **📡 Google Cast & Chromecast Support:**
+  - Cast any live TV stream, movie, or TV series episode directly to your big screen (**Chromecast, Android TV, Google TV, Nest Hub**).
+  - Lazy mDNS device discovery scans your local network only when requested, keeping network traffic silent.
+  - Built-in lightweight media server serves synchronized subtitles (WebVTT) and proxies streams seamlessly to your Cast devices.
 
 - **📺 Complete IPTV & Media Protocol Support:**
   - Seamlessly streams **HLS (.m3u8), MPEG-TS, RTMP, RTSP**, and direct video files (**MP4, MKV, AVI**).
@@ -81,6 +86,13 @@ Rich metadata, official movie trailers, active subtitles, and lightning-fast sea
 
 - **⏪ 7-Day Catchup TV (Arkisto / Timeshift):**
   - Watch previously aired programs on supported channels with full time-shift and seek controls (supports Xtream Codes & Flussonic protocols).
+
+- **🖼️ Picture-in-Picture & Dual-Stream Playback:**
+  - Watch two channels simultaneously using an independent, always-on-top floating PiP window.
+  - Fully resizable by dragging the corner handle (`///`) or toggling between compact (`480×330`) and large (`720×480`) presets.
+  - Dedicated independent volume and mute controls for both players (sidetracks WASAPI conflicts via software volume scaling).
+  - One-click channel swap (`⇄` / `S` key) to seamlessly switch content between main and PiP windows.
+  - GPU-accelerated Direct3D11 rendering with dedicated 3000ms jitter buffer and late-frame dropping for butter-smooth playback.
 
 - **📑 Smart Multi-Playlist Management:**
   - Add unlimited playlists via **M3U / M3U8 URLs, local playlist files, or Xtream Codes API**.
