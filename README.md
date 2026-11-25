@@ -191,3 +191,5 @@ Have questions, feedback, or feature suggestions?
 *Built with [JetBrains Compose Multiplatform](https://www.jetbrains.com/lp/compose-multiplatform/) & [LibVLC / VideoLAN](https://www.videolan.org/).*
 
 </div>
+
+<!-- latest-release: v.1.4.0 -->
