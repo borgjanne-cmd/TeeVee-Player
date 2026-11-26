@@ -192,4 +192,4 @@ Have questions, feedback, or feature suggestions?
 
 </div>
 
-<!-- latest-release: v.1.4.0 -->
+<!-- latest-release: v.1.4.1 -->
