@@ -126,6 +126,11 @@ Hallintaikkunan toiselta välilehdeltä (**Kanavien ja ryhmien muokkaus**) voit 
 - **Tekstitykset:** Chromecast-suoratoistossa tekstityksen näkyminen vaatii tekstitystiedoston lataamisen OpenSubtitles-palvelusta (toistopalkin **Tekstitys**-painikkeesta). Sovelluksen sisäänrakennettu mediapalvelin muuntaa ladatun tekstityksen automaattisesti Chromecast-yhteensopivaksi (WebVTT) ja synkronoi sen suoraan televisioon viive- ja kokosäätöineen.
 - **Toiston ohjaus ja palautus:** Voit säätää äänenvoimakkuutta, keskeyttää toiston tai kelata suoraan TeeVee Playerista. Toiston voi palauttaa takaisin tietokoneelle napsauttamalla Cast-valikosta *"Katkaise yhteys"*.
 
+### H. Paikallinen DVR-tallennus ja ajastus (valinnainen)
+- **Tallennuskansion määritys:** Valitse asetuksista kansio tallenteille ja halutessasi automaattinen lisäaika (0–10 min). Jos kansiota ei ole valittu, kaikki tallennuspainikkeet pysyvät piilossa.
+- **Pikakäynnistys ja samanaikainen katselu:** Aloita suoran lähetyksen tallennus yhdellä klikkauksella soittimen alapalkista, kanavan tiedoista tai TV-oppaasta. Voit katsoa ja tallentaa samaa kanavaa samanaikaisesti ilman katkoksia myös yhden yhteyden IPTV-tileillä.
+- **Ajastukset ja tallenteet:** Ajasta tulevia ohjelmia monikanavaisesta TV-oppaasta (`REC`-merkintä) ja katso valmiit tallenteet ryhmälistan kärjestä löytyvästä *Tallenteet*-näkymästä.
+
 ---
 
 ## 5. Ohje, diagnostiikka ja lokitiedostot
