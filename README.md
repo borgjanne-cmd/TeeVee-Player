@@ -72,6 +72,12 @@ Rich metadata, official movie trailers, active subtitles, and lightning-fast sea
   - **Multi-Channel Timeline Guide:** Dedicated desktop window view for any Live TV group with side-by-side channel columns, 7-day schedule browser, automatic program cover art (Wikipedia, TVMaze, Cinemeta), detailed synopses, and a one-click "Now" button.
   - High-speed fuzzy search across all channels, categories, and program titles.
 
+- **⏺️ Local DVR Recording & Scheduling (Optional):**
+  - Record live TV broadcasts directly to your computer with one click from the player bar, channel info dialog, or TV guide.
+  - Schedule upcoming shows from the Multi-Channel TV Guide (marked with a `REC` badge) with configurable end-padding (0–10 min).
+  - Watch and record the same channel simultaneously without interruptions, even on single-connection IPTV accounts.
+  - Browse completed recordings in a dedicated *Recordings* view at the top of the group list (all DVR controls remain hidden unless a recording folder is configured).
+
 - **🔒 Channel & Group Customization & Parental Control:**
   - Full drag-and-drop reordering with smooth list auto-scrolling.
   - Fast batch management: select multiple channels (with Shift-multiselect) to hide, move, or reset.
